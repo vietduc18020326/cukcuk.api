@@ -1,0 +1,50 @@
+﻿.content .content-body {
+    height: 78vh;
+    border-left-width: 1px;
+    border-left-color: #bbbbbb;
+    border-left-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#style-scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+    height: 7px;
+}
+
+#style-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+#style-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.c-table {
+    width: 100%;
+    text-align: center;
+    overflow: scroll;
+    height: 75vh;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border-bottom: 1px solid #bbbbbb;
+    padding: 10px;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.c-table tbody tr:hover{
+    background-color: #bbbbbb;
+    cursor: pointer;
+}

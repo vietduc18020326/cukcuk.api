@@ -1,0 +1,59 @@
+﻿.header{
+    width: 100%;
+    height: 60px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-color: #bbbbbb;
+    border-style: solid;
+    border-top-width: 0px;
+}
+.header-left{
+    width: 200px;
+    height: 60px;
+    float: left;
+    align-items: center;
+    padding-left: 30px;
+    display: flex;
+}
+.header-right{
+    width: 150px;
+    height: 60px;
+    align-items: center;
+    float: right;
+    display: flex;
+    padding-left: 30px;
+}
+.header-right:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+.header .header-left .res{
+    margin-right: 20px;
+}
+.header .header-left .down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.header .header-right .user_icon {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header .header-right .username{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header .header-right .option {
+    background-image: url('../../content/icon/option.png');
+}
+.header .header-right .avatar {
+    background-image: url('../../content/icon/avatar-default.png');
+}
+.clear {
+    clear: both;
+}

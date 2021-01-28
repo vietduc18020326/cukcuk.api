@@ -1,0 +1,128 @@
+﻿.content .content-footer {
+    height: 50px;
+    border-left-width: 1px;
+    border-left-color: #bbbbbb;
+    border-left-style: solid;
+    display: flex;
+}
+.content .content-footer .fl{
+    width: 30%;
+    height: 100%;
+}
+.content .content-footer .fl p{
+    margin-left: 25px;
+}
+.content .content-footer .pagination{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.content .content-footer .pagination .page-numbers{
+/*    list-style: none;*/
+    display: flex;
+    justify-content: center;
+}
+
+.content .content-footer .pagination .icon-pagination {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    
+}
+.content .content-footer .pagination .icon-pagination:hover{
+    background-color: #2FBE8E;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.nb-pagination {
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    text-align: center;
+    background-color: #01B075;
+    border-radius: 100px;
+}
+
+.table-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pagination-number {
+    display: flex;
+    align-items: center;
+}
+
+.wp-pagi-nb {
+    display: flex;
+    align-items: center;
+}
+
+.pagi-nb {
+    width: 30px;
+    height: 30px;
+    background-color: #e5e5e5;
+    border-radius: 100px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 3px;
+}
+.pagi-nb:hover{
+    background-color: #2FBE8E;
+    color: #fff;
+}
+
+.pagi_num_active {
+    background-color: #019160;
+    color: #fff;
+}
+
+.content .content-footer .pagination .firstpage {
+    background-image: url('../../content/icon/btn-firstpage.svg');
+}
+.content .content-footer .pagination .prevpage {
+    background-image: url('../../content/icon/btn-prev-page.svg');
+}
+.content .content-footer .pagination .nextpage {
+    background-image: url('../../content/icon/btn-next-page.svg');
+}
+.content .content-footer .pagination .lastpage {
+    background-image: url('../../content/icon/btn-lastpage.svg');
+}
+
+
+.content .content-footer .pagination .page-numbers .page-number {
+    margin-right: 30px;
+    margin-left: 10px;
+    /* top: 10px; */
+    padding-top: 3px;
+}
+.content .content-footer .pagination .page-numbers li numbers {
+    display: block;
+    border-radius: 25px;
+    border: 1px solid #bbbbbb;
+    
+}
+.content .content-footer .pagination .page-numbers li:hover > .page-number,
+.content .content-footer .pagination .page-numbers li .active{
+    background-color: #01B075;
+    border-radius: 25px;
+}
+
+.content .content-footer .fr{
+    width: 20%;
+    height: 100%;
+}
+.content .content-footer .fr p{
+    margin-left: 100px;
+}

@@ -1,0 +1,235 @@
+﻿/* .form-dialog{
+    margin-left: 28px;
+    margin-right: 10px;
+} */
+.customer-dialog{
+    display: block;
+    width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border: 1px solid;
+    background: white;
+    top: 3px;
+}
+.form-dialog .form-header{
+    width: 100%;
+    margin: 10px;
+}
+.form-dialog .form-header .title{
+    margin-bottom: -15px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.form-dialog .form-header .icon-x{
+    background-image: url(../../content/icon/x.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 5px;
+    top: 14px;
+    width: 30px;
+    height: 30px;
+}
+.form-dialog .form-header .icon-x:hover{
+    cursor: pointer;
+}
+.form-dialog .form-body{
+    display: flex;
+    width: 100%;
+    /* margin-bottom: 40px; */
+    margin: 15px;
+}
+.avatar{
+    width: 210px;
+    height: 200px;
+    align-items: center;
+}
+.icon-avatar {
+    width: 165px;
+    height: 170px;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-image: url(../../content/img/default-avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #bbbbbb;
+}
+
+.caption-avatar{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+.form-near-avat {
+    width: 65%;
+}
+.form-near-avat .cus-left{
+    width: 230px; 
+    float: left
+}
+.form-near-avat .cus-right{
+    width: 220px;
+    float: right;
+}
+
+
+.form-dialog input[type="text"],.form-dialog input[type="date"],.form-dialog select,.form-dialog input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    resize: vertical;
+}
+.underlined {
+    background-color: #01B075;
+    width: 90px;
+    height: 5px;
+    margin-bottom: 14px;
+    margin-top: -7px;
+}
+.input-radio {
+    display: flex;
+}
+input.border-red{
+    border: 2px solid red;
+}
+
+.form-body .body-left{
+    width:64%;
+    float: left;
+}
+.Id{
+    display: none;
+}
+
+.form-body .body-right {
+    width: 33%;
+    float: right;
+}
+
+.form-footer {
+    width: 100%;
+    height: 62px;
+    background-color: #E9EBEE;
+    align-items: center;
+}
+.form-footer .btn-footer{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 24px;
+}
+.form-footer button {
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+.btn-footer .btn-cancel {
+    background-color: #E9EBEE; 
+    color: black; 
+}
+.btn-footer .btn-cancel:hover{
+    background-color: #DADCE0;
+    cursor: pointer;
+    color: white;
+}
+.btn-footer .btn-save {
+    background-color: #01B075;
+    color: white;
+}
+.btn-footer .btn-save:hover{
+    background-color: #2FBE8E;
+    color: white;
+    cursor: pointer;
+}
+.btn-footer .btn-delete{
+    background-color: #F65454; 
+    color: black;
+}
+.btn-footer .btn-delete:hover{
+    background-color: #FF6900;
+    cursor: pointer;
+
+}
+
+.text-error{
+    color: red;
+}
+.form-message{
+    color: red;
+}
+
+/* dialog warn */
+.warn{
+    display: block;
+    border: 1px solid black;
+    width: 400px;
+    height: 130px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+.warn #title{
+    margin: 24px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.warn .btn-footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 24px;
+    background-color: #E9EBEE;
+    width: 100%;
+    height: 60px;
+}
+.warn .btn-footer .btn-warn{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 6%;
+}
+.warn .btn-footer .btn-warn button{
+    height: 100%;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.btn-footer .btn-no {
+    background-color: #E9EBEE; 
+    color: black; 
+}
+.btn-footer .btn-yes {
+    background-color: #01B075; 
+    margin-left: 16px;
+    color: black; 
+}
+.btn-footer .btn-no:hover {
+    background-color: #DADCE0;
+    color: white;
+    cursor: pointer;
+}
+.btn-footer .btn-yes:hover {
+    background-color: #2FBE8E;
+    color: white;
+    cursor: pointer;
+}
+
+#title-warn{
+    margin-right: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+

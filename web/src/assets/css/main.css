@@ -1,0 +1,54 @@
+﻿@import url('layout/content.css');
+@import url('layout/header.css');
+@import url('layout/menu.css');
+@import url('layout/content-body.css');
+@import url('layout/content-footer.css');
+@import url('layout/dialog.css');
+
+body {
+    margin: 0px;
+    font-family:GoogleSans-Regular;
+    font-size: 13px;
+}
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../content/font/GoogleSans-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../content/font/GoogleSans-Bold.otf') format('opentype'), url('../content/font/GoogleSans-Italic.otf') format('opentype');
+}
+.panel-left{
+    width: 200px;
+    height: 100vh;
+}
+.panel-right{
+    position: absolute;
+    left: 196px;
+    top: 0px;
+    width: calc(100% - 200px);
+    height: 100vh;
+}
+.panel-left .logo {
+    display: flex;
+    width: 93%;
+    height: 60px;
+    background-color: lightcyan;
+    align-items: center;
+    padding-left: 11px;
+}
+.logo .logo-page {
+    width: 100%;
+    height: 34px;
+    background-size: contain;
+    background-image: url('../content/img/cukcuk-logo.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.logo .expend-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('../content/img/toggle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
